@@ -1,1 +1,8 @@
-alias ls='ls --color=auto'
+alias d="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"
+alias grep="grep --color=auto"
+alias la="ls -alhN --color=auto --group-directories-first"
+alias ls="ls -lhN --color=auto --group-directories-first"
+alias mkdir="mkdir -pv"
+alias pacman="sudo pacman"
+alias src="source ~/.bashrc"
+alias systemctl="sudo systemctl"
