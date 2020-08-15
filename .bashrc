@@ -8,4 +8,4 @@ PS1='[\u@\h \W]\$ '
 stty -ixon
 HISTSIZE= HISTFILESIZE=
 
-alias ls='ls --color=auto'
+[ -f ~/.bash_aliases ] && source ~/.bash_aliases
