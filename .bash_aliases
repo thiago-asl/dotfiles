@@ -1,3 +1,13 @@
+#        _ _                     
+#   __ _| (_) __ _ ___  ___  ___ 
+#  / _` | | |/ _` / __|/ _ \/ __|
+# | (_| | | | (_| \__ \  __/\__ \
+#  \__,_|_|_|\__,_|___/\___||___/
+# 
+# -------------------------------
+# ~/.bash_aliases
+# -------------------------------
+
 alias d="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"
 alias grep="grep --color=auto"
 alias la="ls -alhN --color=auto --group-directories-first"
