@@ -16,7 +16,11 @@ set backspace=indent,eol,start
 set clipboard=unnamedplus
 set encoding=utf-8
 set hidden
+set nocompatible
+set noswapfile
 set number relativenumber
+set splitbelow
+set splitright
 
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
