@@ -8,22 +8,28 @@
 # ~/.aliases
 # -------------------------------
 
-alias c="touch"
-alias d="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"
-alias g="grep --color=auto"
-alias l="cd ../"
-alias m="mkdir -pv"
-alias p="sudo pacman"
-alias r="rm -rfv"
-alias s="sudo systemctl"
-alias t="tree -L 2"
-alias y="yay"
+alias a="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"	# Git ~/.files
+alias s="sudo systemctl"						# System Maintenance
 
 
-alias la="ls -alhN --color=auto --group-directories-first"
-alias ls="ls -lhN --color=auto --group-directories-first"
-alias ya="youtube-dl --add-metadata -xic"
-alias yv="youtube-dl --add-metadata -ic"
+alias src="source ~/.bashrc"						# Reload Configuration
 
+# Navigation
 
-alias src="source ~/.bashrc"
+alias c="touch"							# Create File
+alias g="grep --color=auto"					# Search Target
+alias l="cd ../"						# Move Left
+alias m="mkdir -pv"						# Create Directory
+alias r="rm -rfv"						# Delete Target
+alias t="tree -L 2"						# Display Right Twice
+
+alias la="ls -alhN --color=auto --group-directories-first" 	# Display Dotfiles + All
+alias ls="ls -lhN --color=auto --group-directories-first"	# Display All
+
+# Internet
+
+alias p="sudo pacman" 				# Pacman 	(Arch Linux Package Manager)
+alias y="yay"					# Yay	 	(Arch Linux User Repository)
+
+alias ya="youtube-dl --add-metadata -xic" 	# YouTube Audio
+alias yv="youtube-dl --add-metadata -ic"	# YouTube Video
