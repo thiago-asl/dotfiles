@@ -8,23 +8,36 @@
 # ~/.aliases
 # -------------------------------
 
+#
+#
+#
+# Addons: Arch Linux Package Manager & Arch Linx User Repository
+#
+# - Git					= git
+# - Pacman				= pacman
+# - Yay					= yay
+# - Media Downloader			= youtube-dl
+#
+
 alias a="/usr/bin/git --git-dir=$HOME/.files/ --work-tree=$HOME"	# Git ~/.files
-alias s="sudo systemctl"						# System Maintenance
 
+# System Maintenance
 
+alias g="grep --color=auto"						# Search
+alias rm="rm -rfv"							# Remove Destination
+
+alias s="sudo systemctl"						# System Backend
 alias src="source ~/.bashrc"						# Reload Configuration
 
 # Navigation
 
-alias c="touch"							# Create File
-alias g="grep --color=auto"					# Search Target
-alias l="cd ../"						# Move Left
-alias m="mkdir -pv"						# Create Directory
-alias r="rm -rfv"						# Delete Target
-alias t="tree -L 2"						# Display Right Twice
+alias c="touch"								# Create File
+alias d="mkdir -pv"							# Create Directory
+alias l="cd ../"							# Move Left
+alias t="tree -L 2"							# Tree Right Twice
 
-alias la="ls -alhN --color=auto --group-directories-first" 	# Display Dotfiles + All
-alias ls="ls -lhN --color=auto --group-directories-first"	# Display All
+alias la="ls -alhN --color=auto --group-directories-first" 		# List Dotfiles + All
+alias ls="ls -lhN --color=auto --group-directories-first"		# List All
 
 # Internet
 
